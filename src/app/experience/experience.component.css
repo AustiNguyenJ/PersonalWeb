@@ -1,0 +1,26 @@
+.exp {
+    flex-wrap: wrap;
+}
+
+
+.exp .instance{
+    font-size: 20px;
+    min-height: 50px;
+    
+}
+.exp details{
+    max-height: 32px;
+
+}
+.exp details .img{
+    height: 32px;
+}
+
+button::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}

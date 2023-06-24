@@ -1,0 +1,23 @@
+
+.fixed-width-icon {
+    width: 3px; /* Set the desired fixed width */
+  }
+
+.lang{
+    display:flex;
+}
+
+.desc{
+  font-size: 14px;
+  display: flex;
+  flex-basis: 50%;
+  
+
+}
+
+.skills{
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+

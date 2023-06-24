@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    height: 60px;
+    right: -15px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.navbar a{
+    color: #cfc4be;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+h1 .logo{
+    font-size: x-large;
+    font-weight: bold;
+    flex-basis: 0;
+}
+.navbar button:hover{
+    color: #b4a299;
+}
+
+.navbar .container{
+    justify-content: end;
+    margin-right: 20px;
+
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 10px;
+}

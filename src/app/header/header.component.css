@@ -1,0 +1,37 @@
+.header{
+    margin-top: 50px;
+    min-height: 450px;
+    display: flexbox;
+    max-width: 800px auto;
+}
+
+.header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+
+    /* background: -webkit-linear-gradient(#cfc4be, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header .container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shortbio{
+    margin-top: 10px;
+    font-size: 20px; 
+    font-weight: bold;
+    flex-shrink: 200px;
+}
+.phrase1{
+    font-size: 20px; 
+    font-weight: bold;
+    flex-shrink: 200px;
+}

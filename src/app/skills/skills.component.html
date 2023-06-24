@@ -1,0 +1,13 @@
+<div class="skills">
+    <h1>Skills</h1>
+    <ul>
+        <li *ngFor="let skill of skillsMap" class="lang">
+            <details class="button">
+                <summary> 
+                    <i [class]=skill.icon></i> {{skill.name}}</summary> 
+                    <div class="desc">{{skill.desc}}</div>
+            </details>
+        </li>
+    </ul>
+</div>
+    
