@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { TimelineComponent } from './timeline/timeline.component';
+import { BackgroundComponent } from './background/background.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TimelineComponent } from './timeline/timeline.component';
     SkillsComponent,
     ExperienceComponent,
     TimelineComponent,
+    BackgroundComponent,
   ],
   imports: [
     BrowserModule,
