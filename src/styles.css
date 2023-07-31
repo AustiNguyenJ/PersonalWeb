@@ -9,12 +9,15 @@
 }
 
 body {
+    position: absolute;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     color: #cfc4be;
-    /* background: #1f1d1b; */
-
+    background-color: black;
+    z-index: -4;
 }
+
 
 .container {
     margin: 0;
